@@ -4,6 +4,6 @@
 
 #set page(numbering: "i")
 
-#include "frontmatter/cover.typ"
-#include "frontmatter/approval.typ"
-#include "frontmatter/ratification.typ"
+#include "frontmatter/cover.typ"              // Sampul
+#include "frontmatter/approval.typ"           // Lembar Persetujuan
+#include "frontmatter/ratification.typ"       // Lembar Pengesahan
