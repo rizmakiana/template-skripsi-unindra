@@ -32,6 +32,10 @@
 #let abstract-point-e = [Bagian ini diuraikan minimal terdiri atas tujuan penelitian, metode penelitian, dan hasil penelitian dengan maksimal jumlah kata yang digunakan 200-250.]
 
 
+#let motto = "Man jadda wa jadda"
+
+
+
 
 #let months = (
   "Januari", 
