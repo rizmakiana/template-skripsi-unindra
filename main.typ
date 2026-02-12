@@ -6,3 +6,4 @@
 
 #include "frontmatter/cover.typ"
 #include "frontmatter/approval.typ"
+#include "frontmatter/ratification.typ"

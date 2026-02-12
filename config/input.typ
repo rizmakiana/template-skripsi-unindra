@@ -13,3 +13,10 @@
 // Pembimbing Teknik
 #let thesis-advisor2 = "Aulia Paramita S.Kom, M.Kom"
 #let thesis-advisor2-id = "1234567890"
+
+#let rector-university = "Prof. Dr. H. Sumaryoto"
+#let secretary-name = "Ir. Soepardi Harris, M.T"
+
+#let examiner1 = "Forkas Tiroy Santos Butarbutar, M.Kom."
+#let examiner2 = "Reza Avrizal, S.T., M.M., M.Kom."
+#let examiner3 = "Rahmat Pujiyanto, M.Kom"
