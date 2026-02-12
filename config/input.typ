@@ -15,7 +15,7 @@
 #let thesis-advisor2-id = "1234567890"
 
 #let rector-university = "Prof. Dr. H. Sumaryoto"
-#let secretary-name = "Ir. Soepardi Harris, M.T"
+#let secretary-of-university = "Ir. Soepardi Harris, M.T"
 
 #let examiner1 = "Forkas Tiroy Santos Butarbutar, M.Kom."
 #let examiner2 = "Reza Avrizal, S.T., M.M., M.Kom."
@@ -33,6 +33,11 @@
 
 
 #let motto = "Man jadda wa jadda"
+
+#let dean = "Ir. H. Soepardi Harris, M.T.,"
+#let head-of-department = "Mei Lestari, M.Kom"
+#let secretary-of-department = "Ni Wayan Parwati Septiani, MM., M.Kom"
+
 
 
 

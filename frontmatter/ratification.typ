@@ -27,7 +27,7 @@ Panitia Ujian <center>
   row-gutter: 1em,
   [Ketua], [:], [#rector-university #box(width: 1fr, repeat[.])],
   [], [], [],
-  [Sekretaris], [:], [#secretary-name #box(width: 1fr, repeat[.])],
+  [Sekretaris], [:], [#secretary-of-university #box(width: 1fr, repeat[.])],
   [], [], [],
   [Anggota], [:], [],
 )

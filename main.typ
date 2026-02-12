@@ -10,4 +10,4 @@
 #include "frontmatter/declaration.typ"        // Lembar Pernyataan
 #include "frontmatter/abstract.typ"           // Abstrak
 #include "frontmatter/motto.typ"              // Moto
-  
+#include "frontmatter/preface.typ"            // Kata Pengantar
