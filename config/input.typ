@@ -20,3 +20,34 @@
 #let examiner1 = "Forkas Tiroy Santos Butarbutar, M.Kom."
 #let examiner2 = "Reza Avrizal, S.T., M.M., M.Kom."
 #let examiner3 = "Rahmat Pujiyanto, M.Kom"
+
+#let keyword = (
+  "Typst",
+  "Typesetting",
+  "LaTeX",
+  "Java",
+  "SpringBoot",
+) // Kata kunci untuk abstrak. 3-5 kata
+
+#let abstract-point-e = [Bagian ini diuraikan minimal terdiri atas tujuan penelitian, metode penelitian, dan hasil penelitian dengan maksimal jumlah kata yang digunakan 200-250.]
+
+
+
+#let months = (
+  "Januari", 
+  "Febuari",
+  "Maret",
+  "April",
+  "Mei",
+  "Juni",
+  "Juli",
+  "Agustus",
+  "September",
+  "Oktober",
+  "November",
+  "Desember"
+)
+
+#let today = datetime.today(offset: +7)
+#let today_month = months.at(today.month() - 1)
+#let today_year = today.year()

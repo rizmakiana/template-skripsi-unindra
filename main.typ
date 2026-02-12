@@ -8,4 +8,5 @@
 #include "frontmatter/approval.typ"           // Lembar Persetujuan
 #include "frontmatter/ratification.typ"       // Lembar Pengesahan
 #include "frontmatter/declaration.typ"        // Lembar Pernyataan
+#include "frontmatter/abstract.typ"           // Abstrak
 
