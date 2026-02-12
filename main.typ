@@ -7,3 +7,5 @@
 #include "frontmatter/cover.typ"              // Sampul
 #include "frontmatter/approval.typ"           // Lembar Persetujuan
 #include "frontmatter/ratification.typ"       // Lembar Pengesahan
+#include "frontmatter/declaration.typ"        // Lembar Pernyataan
+
