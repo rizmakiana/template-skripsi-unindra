@@ -1,22 +1,21 @@
 #import "../config/input.typ" : *
 
-#set par(leading: 1em, spacing: 1em)
 #set enum(numbering: "A.")
 
 = ABSTRAK 
 \
-+ Nama, NPM: #name, #npm  #v(1em)
++ Nama, NPM: #name, #npm  #v(0.65em)
 
-+ *#thesis-title.* Skripsi; Jakarta; #faculty;; #study-program;; Universitas Indraprasta Persatuan Guru Republik Indonesia, #today_month, #today.year().
++ *#thesis-title.* Skripsi; Jakarta; #faculty;; #study-program;; Universitas Indraprasta Persatuan Guru Republik Indonesia, #today_month, #today.year(). #v(0.65em)
 
-+ Jumlah halaman romawi + jumlah bab + jumlah halaman isi
++ Jumlah halaman romawi + jumlah bab + jumlah halaman isi #v(0.65em)
 
 + #grid(
     columns: (55pt, 9pt, auto),
     [Kata Kunci], [:], [#keyword.join(", ")]
-  )
+  ) #v(0.65em)
   
-+ #abstract-point-e 
++ #abstract-point-e #v(0.65em)
 
 + #grid(
     columns: (auto, 10pt, auto),
@@ -27,7 +26,7 @@
       2 laporan penelitian akademik \
       6 sumber lain \
     ]
-  ) 
+  ) #v(0.65em)
   
 + #grid(
     columns: (auto, 10pt, auto),
