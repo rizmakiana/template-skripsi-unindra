@@ -11,3 +11,9 @@
 #include "frontmatter/abstract.typ"           // Abstrak
 #include "frontmatter/motto.typ"              // Moto
 #include "frontmatter/preface.typ"            // Kata Pengantar
+#include "frontmatter/toc.typ"                // Daftar Isi 
+
+#set page(numbering: "1")
+#counter(page).update(1)
+
+#include "chapter/1.typ"
