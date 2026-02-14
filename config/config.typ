@@ -7,6 +7,7 @@
   show heading.where(level: 1): set text(12pt)
   show heading.where(level: 1): set align(center)
 
+  show outline.entry.where(level: 1): set text(weight: "bold")
 
   body
 }
