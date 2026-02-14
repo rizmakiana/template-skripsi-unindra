@@ -16,8 +16,13 @@
 #set page(numbering: "1")
 #counter(page).update(1)
 
-#include "chapter/1.typ"
-#include "chapter/2.typ"
-#include "chapter/3.typ"
-#include "chapter/4.typ"
-#include "chapter/5.typ"
+#include "chapter/1.typ"                      // BAB I
+#include "chapter/2.typ"                      // BAB II
+#include "chapter/3.typ"                      // BAB III
+#include "chapter/4.typ"                      // BAB IV
+#include "chapter/5.typ"                      // BAB V
+
+#include "backmatter/reference.typ"           // Referensi
+#include "backmatter/source-person.typ"       // Narasumber
+#include "backmatter/author-bio.typ"          // Biografi Penulis
+#include "backmatter/attachment.typ"          // Lampiran
