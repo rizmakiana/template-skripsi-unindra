@@ -1,8 +1,7 @@
 = DAFTAR ISI
 \
 \
-#set align(right)
-Halaman
+#align(right)[Halaman]
 
 #outline(
   title: none,
