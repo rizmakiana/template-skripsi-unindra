@@ -16,15 +16,6 @@
     caption: [Timing results],
   ) <timing-results>
 
-  #figure(
-    table(
-      columns: 4,
-      [t], [3], [4], [5],
-      [y], [0.6s], [0.8s], [1.75s],
-    ),
-    caption: [Timing results 2],
-  ) <timing-results2>
-
 
   \
 + Pembahasan <subChapter>

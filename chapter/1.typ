@@ -2,11 +2,11 @@
   \
 + Latar Belakang <subChapter>
 
-  #lorem(50)
+  #lorem(50) @clean-code #lorem(20)
   
-  #lorem(50)
+  #lorem(50) @baeldung-jpa
 
-  #lorem(50)
+  #lorem(50) @laporan-kp
 
   + Lorem
 
