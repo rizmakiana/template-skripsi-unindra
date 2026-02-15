@@ -12,7 +12,7 @@
   show outline.entry.where(level: 1): set text(weight: "bold")
 
   show heading.where(label: <titleChapter>): it => {
-    titleChapter.step()
+    // titleChapter.step()
     context {
       let i = titleChapter.display("I")
       set par(leading: 0.65em, spacing: 0.65em)
@@ -55,6 +55,36 @@
       it
     }
   }
+
+  set enum(full: true, numbering: (..nums) => {
+    let numbers = nums.pos()
+    if numbers.len() == 1 {
+      strong(numbering("A.", ..numbers))
+    } else if numbers.len() == 2 {
+      numbering("1.", numbers.at(1))
+    } else if numbers.len() == 3 {
+      numbering("a.", numbers.at(2))
+    } else if numbers.len() == 4 {
+      numbering("1)", numbers.at(3))
+    } else if numbers.len() == 5 {
+      numbering("a)", numbers.at(4))
+    }
+  })
+
+  show <subChapter>: it => {
+    place(hide(heading(level: 2, outlined: true, [#it])))
+    strong[#it]
+  }
+
+  set heading(
+    numbering: (..args) => {
+      let nums = args.pos()
+      let level = nums.len()
+
+      if level == 1 {h(-0.5em)} 
+      else if level == 2 { numbering("A.", nums.at(1)) }
+    },
+  )
 
   body
 }

@@ -29,7 +29,7 @@ tangan terbuka. Semoga skripsi ini tepat sasaran.
     
     #v(2cm) // Jarak untuk tanda tangan
     
-    #h(1cm)Penulis
+    #h(1.8cm)Penulis
   ])
 ]
 

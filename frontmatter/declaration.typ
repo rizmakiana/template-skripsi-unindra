@@ -15,7 +15,7 @@ Yang bertanda tangan di bawah ini:
   [Program Studi], [:], [#study-program.slice(14)],
 )
 \
-Dengan ini menyatakan bahwa skripsi dengan judul _ #thesis-title _ beserta seluruh isinya adalah benar-benar karya saya sendiri. Saya tidak melakukan penjiplakan atau pengutipan dengan cara-cara yang tidak sesuai dengan etika ilmu yang berlaku dalam masyarakat keilmuan. Atas pernyataan ini, saya siap menanggung risiko/sanksi apabila di kemudian hari ditemukan adanya pelanggaran etika keilmuan atau ada klaim dari pihak lain terhadap keaslian karya saya ini sesuai dengan Undang-Undang Republik Indonesia Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional Bab V Pasal 25 ayat 2.
+Dengan ini menyatakan bahwa skripsi dengan judul _ "#thesis-title" _ beserta seluruh isinya adalah benar-benar karya saya sendiri. Saya tidak melakukan penjiplakan atau pengutipan dengan cara-cara yang tidak sesuai dengan etika ilmu yang berlaku dalam masyarakat keilmuan. Atas pernyataan ini, saya siap menanggung risiko/sanksi apabila di kemudian hari ditemukan adanya pelanggaran etika keilmuan atau ada klaim dari pihak lain terhadap keaslian karya saya ini sesuai dengan Undang-Undang Republik Indonesia Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional Bab V Pasal 25 ayat 2.
 \
 \ 
 Demikian pernyataan ini saya buat untuk dimanfaatkan sesuai dengan keperluan.
