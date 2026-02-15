@@ -128,5 +128,38 @@
     }
   }
 
+  set page(
+  header: context {
+    let all_h1 = query(heading.where(level: 1))
+    let chapters = query(<titleChapter>)
+    
+    if all_h1.len() == 0 or here().page() < all_h1.first().location().page() { return none }
+
+    let is_main_or_back_zone = chapters.any(c => c.location().page() <= here().page())
+    
+    let is_title_page = all_h1.any(h => h.location().page() == here().page())
+    
+    if is_main_or_back_zone and not is_title_page {
+      set align(right)
+      counter(page).display()
+    }
+  },
+  
+  footer: context {
+    let all_h1 = query(heading.where(level: 1))
+    let chapters = query(<titleChapter>)
+    
+    if all_h1.len() == 0 or here().page() < all_h1.first().location().page() { return none }
+
+    let is_main_or_back_zone = chapters.any(c => c.location().page() <= here().page())
+    let is_title_page = all_h1.any(h => h.location().page() == here().page())
+    
+    if not is_main_or_back_zone or is_title_page {
+      set align(center)
+      counter(page).display()
+    }
+  }
+)
+
   body
 }
