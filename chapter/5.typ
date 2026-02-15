@@ -3,11 +3,11 @@
   \
 + Simpulan <subChapter>
 
-  #lorem(300)
+  #lorem(320)
 
   \
 + Saran <subChapter>
 
   #lorem(170)
-  
+
 #pagebreak()

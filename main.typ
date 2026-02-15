@@ -12,6 +12,10 @@
 #include "frontmatter/motto.typ"              // Moto
 #include "frontmatter/preface.typ"            // Kata Pengantar
 #include "frontmatter/toc.typ"                // Daftar Isi 
+#include "frontmatter/list-of-table.typ"      // Daftar Tabel
+#include "frontmatter/list-of-image.typ"      // Daftar Gambar
+#include "frontmatter/list-of-attachment.typ" // Daftar Lampiran
+
 
 #set page(numbering: "1")
 #counter(page).update(1)

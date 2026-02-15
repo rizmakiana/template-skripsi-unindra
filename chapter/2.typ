@@ -32,8 +32,23 @@
   #lorem(150)
 
   #lorem(150)
-  
-  #lorem(150)
+
+  #lorem(100)
+
+
+  Pada @kerangka-berpikir kita benar-benar melihat kerangka berpikir. Dan ini benar rill terjadi cuy. Real no Fake
+
+  #figure(
+    image("../assets/image/kerangka-berpikir.png", width: 50%,),
+    caption: "Kerangka Berpikir",
+  ) <kerangka-berpikir>
+
+
+  Pada @kerangka-berpikir2 kita benar-benar melihat kerangka berpikir. Dan ini benar rill terjadi cuy. Real no Fake
+  #figure(
+    image("../assets/image/kerangka-berpikir.png", width: 50%,),
+    caption: "Kerangka Berpikir",
+  ) <kerangka-berpikir2>
 
   
   
