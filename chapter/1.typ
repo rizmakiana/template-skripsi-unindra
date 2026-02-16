@@ -44,6 +44,15 @@
 
   #lorem(200)
 
+  Pada @batasan-masalah kita benar-benar melihat suatu Batasan masalah. Dan ini benar terjadi cuy. Real no Fake
+  
+  #figure(
+    rect(
+      image("../assets/image/batasan-masalah.jpg", width: 80%),
+    ),
+    caption: "Batasan Masalah",
+  ) <batasan-masalah>
+
   \
 + Rumusan Masalah <subChapter>
   

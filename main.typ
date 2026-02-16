@@ -16,7 +16,6 @@
 #include "frontmatter/list-of-image.typ"      // Daftar Gambar
 #include "frontmatter/list-of-attachment.typ" // Daftar Lampiran
 
-
 #set page(numbering: "1")
 #counter(page).update(1)
 
