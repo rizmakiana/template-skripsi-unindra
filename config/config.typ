@@ -1,3 +1,5 @@
+#import "terms.typ" : foreign_words
+
 #let document_style(body) = {
   set page(paper: "a4", margin: (top: 4cm, right: 3cm, left: 4cm, bottom: 3cm))
   set text(font: "Liberation Serif", size: 12pt)
