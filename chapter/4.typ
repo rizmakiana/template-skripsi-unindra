@@ -16,6 +16,7 @@
     caption: [Timing results],
   ) <timing-results>
 
+  @timing-results menunjukkan adanya #lorem(50)
 
   \
 + Pembahasan <subChapter>

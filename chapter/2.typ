@@ -6,18 +6,15 @@
 
   + #lorem(15)
 
-  + #lorem(30)
+  + #lorem(30) Pada @landasan-teori kita benar-benar melihat suatu landasan teori. Dan ini benar landasan teori secara harfiah cuy. Real no Fake
 
-  Pada @landasan-teori kita benar-benar melihat suatu landasan teori. Dan ini benar landasan teori secara harfiah cuy. Real no Fake
+    #figure(
+      rect(
+        image("../assets/image/landasan-teori.jpg", width: 80%),
+      ),
+      caption: "Landasan Teori",
+    ) <landasan-teori>
 
-  #figure(
-    rect(
-      image("../assets/image/landasan-teori.jpg", width: 80%),
-    ),
-    caption: "Landasan Teori",
-  ) <landasan-teori>
-
-  \
 
   + #lorem(27)
     + #lorem(20)
