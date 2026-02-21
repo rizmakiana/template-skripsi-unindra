@@ -50,7 +50,7 @@
     rect(
       image("../assets/image/batasan-masalah.jpg", width: 80%),
     ),
-    caption: "Batasan Masalah",
+    caption: "Batasan Masalah | Dokumen Doksli Asli",
   ) <batasan-masalah>
 
   \

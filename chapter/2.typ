@@ -12,7 +12,7 @@
       rect(
         image("../assets/image/landasan-teori.jpg", width: 80%),
       ),
-      caption: "Landasan Teori",
+      caption: "Landasan Teori | Dokumen Doksli Asli",
     ) <landasan-teori>
 
 
@@ -48,7 +48,7 @@
 
   #figure(
     image("../assets/image/kerangka-berpikir.png", width: 50%),
-    caption: "Kerangka Berpikir",
+    caption: "Kerangka Berpikir | Dokumen Doksli Asli",
   ) <kerangka-berpikir>
 
 

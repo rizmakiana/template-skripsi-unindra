@@ -1,4 +1,4 @@
-#import "terms.typ" : foreign_words
+#import "terms.typ": foreign_words
 
 #let document_style(body) = {
   set page(paper: "a4", margin: (top: 4cm, right: 3cm, left: 4cm, bottom: 3cm))
@@ -103,6 +103,20 @@
     [#chapter.#n]
   })
 
+  show figure.caption: it => {
+    show regex("\|.+"): match => {
+      
+      let content_text = match.text
+      let source_clean = content_text.trim("|").trim()
+
+      linebreak() 
+      [(Sumber: #source_clean)]
+    }
+
+    set par(leading: 0.65em)
+    it
+  }
+
   show outline.entry: it => {
     if it.element != none and it.element.func() == figure {
       let fig = it.element
@@ -119,6 +133,8 @@
         set text(weight: "regular")
         block(width: 100%)[
           #link(loc)[
+            // #show regex("\|.+"): ""
+            #show regex("\s*\|.*"): ""
             #suppl #ch_num.#fig_num #body
             #box(width: 1fr, it.fill)
             #it.page()
