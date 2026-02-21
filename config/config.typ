@@ -90,6 +90,7 @@
   show figure.where(kind: table): set figure.caption(position: top)
   show figure.where(kind: table): set figure(supplement: "Tabel")
   show figure.where(kind: table): set text(size: 10pt)
+  show figure.where(kind: table): set figure.caption(separator: [ ])
   show figure.where(kind: table): set figure(numbering: n => context {
     let chapter = counter(<titleChapter>).at(here()).first()
     [#chapter.#n]
@@ -98,6 +99,7 @@
   show figure.where(kind: image): set figure.caption(position: bottom)
   show figure.where(kind: image): set text(size: 10pt)
   show figure.where(kind: image): set figure(supplement: "Gambar")
+  show figure.where(kind: image): set figure.caption(separator: [ ])
   show figure.where(kind: image): set figure(numbering: n => context {
     let chapter = counter(<titleChapter>).at(here()).first()
     [#chapter.#n]
